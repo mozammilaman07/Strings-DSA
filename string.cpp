@@ -20,7 +20,28 @@ int main()
     //     str1.append(str2);
     //     cout << "After " << str1 << endl;
     //     cout << "After " << str2 << endl;
-    string desc = "This is a car";
-    desc.erase(4, 3);
-    cout << "to erase character " << desc << endl;
+
+    // string str1 = "This is a car";
+    // string str2 = "car";
+    // // desc.erase(4, 3);
+    // // cout << "to erase character " << desc << endl;
+    // if (str1.find(str2) == string::npos)
+    // {
+    //     cout << "Not Found " << endl;
+    // }
+    // else
+    // {
+    //     cout << "Found " << endl;
+    // }
+
+    string str1 = "Love";
+    string str2 = "Babbar";
+    if (str1.compare(str2) == 0)
+    {
+        cout << "Matching " << endl;
+    }
+    else
+    {
+        cout << "Not matching " << endl;
+    }
 }
