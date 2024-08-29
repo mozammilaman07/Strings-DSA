@@ -34,8 +34,8 @@ int main()
     //     cout << "Found " << endl;
     // }
 
-    string str1 = "Love";
-    string str2 = "Babbar";
+    string str1 = "Aman";
+    string str2 = "Aman";
     if (str1.compare(str2) == 0)
     {
         cout << "Matching " << endl;
