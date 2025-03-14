@@ -1,10 +1,9 @@
-#include <iostream>
-#include <string.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-    char ch[5];
-    cin >> ch;
-    cout << ch;
+    string s;
+    cin >> s;
+    cout << s;
 }
